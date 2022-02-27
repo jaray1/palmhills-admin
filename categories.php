@@ -9,7 +9,7 @@
 			<form action="" id="manage-category">
 				<div class="card">
 					<div class="card-header">
-						    Category Form
+						    House Category Form
 				  	</div>
 					<div class="card-body">
 							<input type="hidden" name="id">
@@ -36,7 +36,7 @@
 			<div class="col-md-8">
 				<div class="card">
 					<div class="card-header">
-						<b>Category List</b>
+						<b>House Category List</b>
 					</div>
 					<div class="card-body">
 						<table class="table table-bordered table-hover">
@@ -59,7 +59,7 @@
 										<p><b><?php echo $row['name'] ?></b></p>
 									</td>
 									<td class="text-center">
-										<button class="btn btn-sm btn-primary edit_category" type="button" data-id="<?php echo $row['id'] ?>"  data-name="<?php echo $row['name'] ?>" >Edit</button>
+										<button class="btn btn-sm btn-info edit_category" type="button" data-id="<?php echo $row['id'] ?>"  data-name="<?php echo $row['name'] ?>" >Edit</button>
 										<button class="btn btn-sm btn-danger delete_category" type="button" data-id="<?php echo $row['id'] ?>">Delete</button>
 									</td>
 								</tr>
